@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RefExample } from './components/04-useRef/RefExample';
+//import { RefExample } from './components/04-useRef/RefExample';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 //import { CounterApp } from './components/01-useState/CounterApp';
 //import { CounterCustomHooks } from './components/01-useState/CounterCustomHooks';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
@@ -9,7 +10,7 @@ import { RefExample } from './components/04-useRef/RefExample';
 
 ReactDOM.render(
   
-    <RefExample />,  
+    <TodoApp />,  
   document.getElementById('root')
 );
 
