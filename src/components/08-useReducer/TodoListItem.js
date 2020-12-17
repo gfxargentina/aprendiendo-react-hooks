@@ -10,7 +10,7 @@ const TodoListItem = ({ todo, index, handleDelete, handleToggle  }) => {
                   className={ `${ todo.done && 'complete' }` }
                   onClick={ () => handleToggle( todo.id ) }
                 > 
-                   { index + 1}.{ todo.descripcion } {todo.id} </p>
+                   { index + 1}.{ todo.descripcion } </p>
                 <button
                    className="btn btn-danger ml-5"
                    onClick={ () => handleDelete( todo.id )}
