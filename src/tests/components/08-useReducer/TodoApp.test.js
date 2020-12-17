@@ -9,7 +9,8 @@ describe('Pruebas en <TodoApp />', () => {
     test('debe de mostrarse correctamente', () => {
         expect( wrapper ).toMatchSnapshot();
         
-    })
+    });
+    
     
     
 })
